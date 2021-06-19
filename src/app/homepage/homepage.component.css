@@ -1,0 +1,14 @@
+.container{
+    margin-top: 1%;
+}
+.health{
+    background-color: yellowgreen; 
+    padding-left: .5rem;
+    margin: .1rem;
+    border-radius: 20px;
+    color: white;
+}
+img{
+    border: 10px solid gray;
+    border-radius: 5px;
+}
