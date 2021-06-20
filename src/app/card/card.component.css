@@ -12,8 +12,10 @@
   
 .card{
   border-radius: 10px;
+  border-color: black;
   
 }
 .card image{
   align-items: center;
+  
 }

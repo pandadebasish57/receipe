@@ -4,8 +4,10 @@
             border-radius: 1px !important;
   }
   .container{
+      max-width: 100%;
       margin-left:400px;
       margin-top: 2%;
+      
   }
   #logo {
   color: #666;
