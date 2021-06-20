@@ -19,7 +19,13 @@
       </form>
     </div>
   </div>
+</div><br>
+<div class="row">
+<div class="col-sm-3" *ngFor="let recipe of RecipeData">
+  <app-card  [url]="recipe.recipe.image" [name]="recipe.recipe.label"></app-card>
 </div>
-<div class="col-lg-4" *ngFor="let recipe of RecipeData">
-  <app-card [url]="recipe.recipe.image" [name]="recipe.recipe.label"></app-card>
 </div>
+
+
+ 
+  
